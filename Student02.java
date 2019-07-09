@@ -1,4 +1,12 @@
-	public static void main(String[] args) throws Exception {
+package S1;
+
+import java.sql.*;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Student02 {
+
+       public static void main(String[] args) throws Exception {
 		String url="jdbc:mysql://127.0.0.1:3306/school";
 		String user="root";
 		String password="mypass1234";
